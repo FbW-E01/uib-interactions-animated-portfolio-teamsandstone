@@ -71,7 +71,7 @@ li.dropdown {
 
 .dropdown-content {
   background-color: #f5f5f5;
-  box-shadow: 5px 5px 20px white;
+  box-shadow: 5px 5px 10px white;
   display: block;
   display: none;
   position: absolute;
@@ -108,7 +108,7 @@ li.dropdown {
   display: none;
   position: relative;
   background-color: #f5f5f5;
-  box-shadow: 5px 5px 20px white;
+  box-shadow: 5px 5px 10px white;
   width: 200px;
 }
 
