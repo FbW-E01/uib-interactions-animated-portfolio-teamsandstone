@@ -101,7 +101,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
   left: 0;
-  top: 130%;
+  top: 30px;
 }
 
 .double-dropdown > ul {
@@ -112,11 +112,22 @@ li.dropdown {
   width: 200px;
 }
 
+.double-dropdown > ul > li {
+  position: relative;
+}
+
 .double-dropdown:hover > ul {
   display: block;
   position: absolute;
   left: 90%;
+}
+
+.double-dropdown:nth-child(2):hover > ul {
   top: 40%;
+}
+
+.double-dropdown:nth-child(3):hover > ul {
+  top: 67%;
 }
 
 .two:hover > ul {
