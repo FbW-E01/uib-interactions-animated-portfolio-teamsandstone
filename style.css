@@ -202,7 +202,27 @@ p {
     flex-direction: column;
     justify-content: space-around;
     margin: 5vh 45%;
+    animation: swing linear 3s infinite;
 }
+
+.info-container:hover {
+  animation: none;
+}
+
+@keyframes swing {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  33% {
+    transform: translate(0, 15px);
+  }
+
+  66% {
+    transform: translate(0, -15px);
+  }
+}
+
 .info {
     width: 100%;
     height: 100%;
