@@ -382,7 +382,6 @@ h1 {
                                 
 */
 footer { 
-    outline: 2px red solid;
   background-color: black;
   height: 150px;
   display: flex;
@@ -467,4 +466,3 @@ footer > a > span:nth-child(4) {
 footer > a:hover > span:nth-child(4) {
   transform: translateY(-130%);
   transition: 1s 0.75s;
-}
