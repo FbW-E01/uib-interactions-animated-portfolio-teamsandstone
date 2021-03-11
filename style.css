@@ -169,6 +169,10 @@ li.dropdown {
   justify-content: space-between;
 }
 
+main {
+  overflow: hidden;
+}
+
 img {
   width: 80px;
   height: 80px;
