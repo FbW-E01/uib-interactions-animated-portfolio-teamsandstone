@@ -26,11 +26,9 @@ header {
 }
 
 nav > ul {
-  width: 1000px;
   height: 70px;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -38,6 +36,7 @@ nav ul li {
   list-style: none;
   display: inline;
   flex-wrap: wrap;
+  margin: 0 20px;
 }
 
 nav a {
@@ -112,6 +111,11 @@ li.dropdown {
   position: absolute;
   left: 90%;
   top: 40%;
+}
+
+.double-dropdown > li {
+  display: flex;
+  justify-content: space-between;
 }
 
 img {
