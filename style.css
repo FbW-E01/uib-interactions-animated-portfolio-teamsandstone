@@ -45,12 +45,29 @@ nav a {
   color: black;
 }
 
+i {
+  margin-right: 10px;
+}
+
+.fa-angle-down {
+  margin-left: 10px;
+}
+
+li:hover a .fa:not(.fa-angle-down) {
+  transform: scale(1.7);
+  color: #faac04;
+}
+
+ul:hover > a {
+  color: lightgray;
+}
+
 li.dropdown {
   position: relative;
 }
 
 .dropdown-content {
-  background-color: white;
+  background-color: #f5f5f5;
   box-shadow: 5px 5px 20px white;
   display: block;
   display: none;
@@ -78,17 +95,23 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+  left: 0;
+  top: 20px;
 }
 
 .double-dropdown > ul {
   display: none;
   position: relative;
+  background-color: #f5f5f5;
+  box-shadow: 5px 5px 20px white;
+  width: 200px;
 }
 
 .double-dropdown:hover > ul {
   display: block;
   position: absolute;
-  left: 100%;
+  left: 90%;
+  top: 40%;
 }
 
 img {
