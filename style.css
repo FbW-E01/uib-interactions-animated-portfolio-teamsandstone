@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* outline: 2px red solid; */
+  outline: 2px red solid;
 }
 
 body {
@@ -123,15 +123,13 @@ li.dropdown {
 .double-dropdown > ul > li {
   position: relative;
 }
-
 .double-dropdown:hover > ul {
   display: block;
   position: absolute;
   left: 90%;
 }
 #wrapper {
-    outline: red solid 2px;
-    height: 100vh;
+    /* height: calc(100vh - 70px); */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -294,6 +292,7 @@ h1 {
     0% {
         transform: translate(500px);
         transition: linear;
+    
     }
     45% {
         transform: translate(0px);
@@ -343,10 +342,17 @@ h1 {
         transform: translate(0);
     }
 }
-
-footer {
+/*
+   _____           _            
+  |  ___|__   ___ | |_ ___ _ __ 
+  | |_ / _ \ / _ \| __/ _ \ '__|
+  |  _| (_) | (_) | ||  __/ |   
+  |_|  \___/ \___/ \__\___|_|   
+                                
+*/
+footer { 
+    outline: 2px red solid;
   background-color: black;
-  width: 100%;
   height: 150px;
   display: flex;
   justify-content: center;
