@@ -44,6 +44,11 @@ nav ul li {
   margin: 0 20px;
 }
 
+@media (max-width: 720px) {
+  nav ul li {
+  margin: 0 5px;
+}}
+
 nav a {
   text-decoration: none;
   color: black;
@@ -72,7 +77,8 @@ li.dropdown {
 
 .dropdown-content {
   background-color: #f5f5f5;
-  box-shadow: 5px 5px 20px white;
+  box-shadow: 5px 5px 10px white;
+  border-radius: 10px;
   display: block;
   display: none;
   position: absolute;
@@ -102,22 +108,38 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
   left: 0;
+<<<<<<< HEAD
   top: 40%;
+=======
+  top: 30px;
+>>>>>>> be64bde5a0849b57c044aa3a259aad85e1692fbe
 }
 
 .double-dropdown > ul {
   display: none;
   position: relative;
   background-color: #f5f5f5;
-  box-shadow: 5px 5px 20px white;
+  box-shadow: 5px 5px 10px white;
   width: 200px;
+  border-radius: 5px;
+}
+
+.double-dropdown > ul > li {
+  position: relative;
 }
 
 .double-dropdown:hover > ul {
   display: block;
   position: absolute;
   left: 90%;
+}
+
+.double-dropdown:nth-child(2):hover > ul {
   top: 40%;
+}
+
+.double-dropdown:nth-child(3):hover > ul {
+  top: 67%;
 }
 
 .two:hover > ul {
