@@ -22,7 +22,6 @@ header {
   padding: 0 20px;
   box-shadow: 5px 0px 10px;
   background-color: white;
-  margin-bottom: 50px;
 }
 
 .logo img {
@@ -195,7 +194,8 @@ p {
 }
 .info-container {
     width: 350px;
-    height: 200px;
+    height: 250px;
+    padding-top: 50px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
